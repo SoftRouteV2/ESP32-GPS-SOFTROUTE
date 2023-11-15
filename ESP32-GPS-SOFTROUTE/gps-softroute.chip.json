@@ -1,0 +1,10 @@
+{
+  "name": "GPS Softroute",
+  "author": "SoftRoute",
+  "pins": [
+    "RX",
+    "TX",
+    "GND",
+    "VCC"
+  ]
+}

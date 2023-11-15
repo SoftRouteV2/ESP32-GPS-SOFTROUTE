@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Softroute",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -68.1, "left": -24.79, "attrs": {} },
+    { "type": "chip-gps-softroute", "id": "chip1", "top": -75.78, "left": 196.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "chip1:RX", "esp:TX2", "green", [ "h-91.87", "v96.13" ] ],
+    [ "chip1:VCC", "esp:3V3", "red", [ "h19.68", "v0.13" ] ],
+    [ "chip1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "chip1:TX", "esp:RX2", "green", [ "h-83.87", "v98.53" ] ]
+  ],
+  "serialMonitor": { "display": "auto", "newline": "lf" },
+  "dependencies": {}
+}
