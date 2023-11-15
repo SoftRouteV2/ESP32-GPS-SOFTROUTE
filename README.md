@@ -1,6 +1,6 @@
 # ESP32-GPS-SOFTROUTE
 
-<h1 align="center"> <img src="https://raw.githubusercontent.com/SoftRouteV2/ESP32-GPS-SOFTROUTE/main/assets/gps-softroute.png?token=GHSAT0AAAAAACGVU2LZJX3V57HFBHSADPFWZKUBXIQ" alt="Project Screenshot" height="350"> </h1>
+<h1 align="center"> <img src="https://github.com/SoftRouteV2/ESP32-GPS-SOFTROUTE/blob/main/assets/gps-softroute.png" alt="Project Screenshot" height="350"> </h1>
 
 ## Project Description
 
